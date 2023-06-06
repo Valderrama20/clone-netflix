@@ -1,0 +1,43 @@
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav img{
+  height: 100px;
+  margin: -10px 15px;
+}
+
+.container_buttons {
+   display: flex;
+   align-items: center;
+   margin: 0 50px;
+   gap: 10px;
+
+}
+
+.nav button {
+    padding: 8px 16px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #E50914;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
+.nav select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 6px 25px;
+    font-size: 15px;
+    border-radius: 2px;
+    font-weight: bolder;
+    background-color: transparent;
+}
+.flecha {
+   
+}

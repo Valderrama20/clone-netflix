@@ -86,6 +86,7 @@ body {
 }
 
 body {
+  font-size: "Helvetica Neue";
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -105,3 +106,5 @@ a {
     color-scheme: dark;
   }
 }
+
+
