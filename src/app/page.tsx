@@ -1,12 +1,13 @@
+import Info from "@/components/info/Info"
 import style from "./page.module.css"
 
 
 import Nav from '@/components/nav/Nav'
 
 export default function Home() {
-  return (
-     <main className={style.main}>
+  return (<div className={style.container}>
       <header><Nav/></header>
+      <main className={style.main}>
       <div className={style.info}>
         <h1>Películas y series<br />ilimitadas y mucho más</h1>
         <h2>Disfruta donde quieras. Cancela cuando quieras.</h2>
@@ -17,6 +18,8 @@ export default function Home() {
          </div>
         
       </div>
+        <Info/>
      </main>
+     </div>
   )
 }
